@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0ce068b5-5552-449b-83c0-fb6af057898c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/data/RouteBadFormat.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/RouteBadFormat2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/RouteBadFormat3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/RouteMapMultiple.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/RouteMapOne.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/RouteMissingDestination.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/RouteMissingName.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/RouteMissingPatterns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/RoutesPartial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/StopBadFormat.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/StopMissingLat.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/StopMissingName.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/StopPartial.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/arrival43MissingALL.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/ArrivalParserALLTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/RouteMapParserOneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/RouteParserALLTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/RouteParserMissingFieldTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/StopParserALLTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/StopParserMissingFieldTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsonParserExample/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JsonParserExample/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsonParserExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JsonParserExample/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListReverser/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ListReverser/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListReverser/lectures/IterationAbstractionLectureLab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ListReverser/lectures/IterationAbstractionLectureLab/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListReverser/lectures/IterationAbstractionLectureLab/src/ca/ubc/cpsc210/remotecontrol/RemoteControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ListReverser/lectures/IterationAbstractionLectureLab/src/ca/ubc/cpsc210/remotecontrol/RemoteControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListReverser/out/production/ListReverser/ca/ubc/cpsc210/listreverser/driver/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/ListReverser/out/production/ListReverser/ca/ubc/cpsc210/listreverser/driver/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListReverser/out/production/ListReverser/ca/ubc/cpsc210/listreverser/reverser/ListReverserUsingIteratorBad.class" beforeDir="false" afterPath="$PROJECT_DIR$/ListReverser/out/production/ListReverser/ca/ubc/cpsc210/listreverser/reverser/ListReverserUsingIteratorBad.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListReverser/out/production/ListReverser/ca/ubc/cpsc210/listreverser/reverser/ListReverserUsingIteratorGood.class" beforeDir="false" afterPath="$PROJECT_DIR$/ListReverser/out/production/ListReverser/ca/ubc/cpsc210/listreverser/reverser/ListReverserUsingIteratorGood.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListReverser/out/production/ListReverser/ca/ubc/cpsc210/listreverser/reverser/ListReverserWithoutIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/ListReverser/out/production/ListReverser/ca/ubc/cpsc210/listreverser/reverser/ListReverserWithoutIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListReverser/src/ca/ubc/cpsc210/listreverser/driver/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ListReverser/src/ca/ubc/cpsc210/listreverser/driver/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListReverser/src/ca/ubc/cpsc210/listreverser/reverser/ListReverserUsingIteratorBad.java" beforeDir="false" afterPath="$PROJECT_DIR$/ListReverser/src/ca/ubc/cpsc210/listreverser/reverser/ListReverserUsingIteratorBad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListReverser/src/ca/ubc/cpsc210/listreverser/reverser/ListReverserUsingIteratorGood.java" beforeDir="false" afterPath="$PROJECT_DIR$/ListReverser/src/ca/ubc/cpsc210/listreverser/reverser/ListReverserUsingIteratorGood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BusesAreUs_Phase1_Starter/ca/ubc/cs/cpsc210/translink/model/Arrival.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BusesAreUs_Phase1_Starter/ca/ubc/cs/cpsc210/translink/model/Arrival.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BusesAreUs_Phase1_Starter/ca/ubc/cs/cpsc210/translink/model/Route.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BusesAreUs_Phase1_Starter/ca/ubc/cs/cpsc210/translink/model/Route.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BusesAreUs_Phase1_Starter/ca/ubc/cs/cpsc210/translink/model/RouteManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BusesAreUs_Phase1_Starter/ca/ubc/cs/cpsc210/translink/model/RouteManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BusesAreUs_Phase1_Starter/ca/ubc/cs/cpsc210/translink/model/RoutePattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BusesAreUs_Phase1_Starter/ca/ubc/cs/cpsc210/translink/model/RoutePattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BusesAreUs_Phase1_Starter/ca/ubc/cs/cpsc210/translink/model/Stop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BusesAreUs_Phase1_Starter/ca/ubc/cs/cpsc210/translink/model/Stop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BusesAreUs_Phase1_Starter/ca/ubc/cs/cpsc210/translink/model/StopManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BusesAreUs_Phase1_Starter/ca/ubc/cs/cpsc210/translink/model/StopManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BusesAreUs_Phase1_Starter/ca/ubc/cs/cpsc210/translink/parsers/ArrivalsParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BusesAreUs_Phase1_Starter/ca/ubc/cs/cpsc210/translink/parsers/ArrivalsParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BusesAreUs_Phase1_Starter/ca/ubc/cs/cpsc210/translink/parsers/RouteMapParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BusesAreUs_Phase1_Starter/ca/ubc/cs/cpsc210/translink/parsers/RouteMapParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BusesAreUs_Phase1_Starter/ca/ubc/cs/cpsc210/translink/parsers/RouteParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BusesAreUs_Phase1_Starter/ca/ubc/cs/cpsc210/translink/parsers/RouteParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BusesAreUs_Phase1_Starter/ca/ubc/cs/cpsc210/translink/parsers/StopParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BusesAreUs_Phase1_Starter/ca/ubc/cs/cpsc210/translink/parsers/StopParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BusesAreUs_Phase1_Starter/ca/ubc/cs/cpsc210/translink/util/Geometry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BusesAreUs_Phase1_Starter/ca/ubc/cs/cpsc210/translink/util/Geometry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/model/Route.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/model/Route.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/model/RouteManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/model/RouteManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/model/RoutePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/model/RoutePattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/model/Stop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/model/Stop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/model/StopManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/model/StopManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/parsers/ArrivalsParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/parsers/ArrivalsParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/parsers/RouteMapParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/parsers/RouteMapParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/parsers/RouteParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/parsers/RouteParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/parsers/StopParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/parsers/StopParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/ArrivalsParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/ArrivalsParserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/RouteMapParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/RouteMapParserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/RouteParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/RouteParserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/StopParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/StopParserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/util/Geometry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/util/Geometry.java" afterDir="false" />
+    </list>
+    <ignored path="BusesAreUs_Phase1_Starter.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/BusesAreUs_Phase1_Starter$RouteMapParserTest.coverage" NAME="RouteMapParserTest Coverage Results" MODIFIED="1489463359069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ca.ubc.cs.cpsc210.translink.tests.parsers.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1609424716">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="BusesAreUs_Phase1_Starter" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/RoutesPartial.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/RouteMissingDestination.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/RouteMissingPatterns.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/model/RouteManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/StopParserALLTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/parsers/StopParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/model/Route.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/StopPartial.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/StopParserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/StopParserMissingFieldTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>status</find>
+      <find>getroutes</find>
+      <find>getstopwith</find>
+      <find>id</find>
+      <find>nearest</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>number</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/model/Arrival.java" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/model/ArrivalsTest.java" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/model/RouteManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/model/StopManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/model/StopManager.java" />
+        <option value="$PROJECT_DIR$/data/RouteMissingExceptionTest.json" />
+        <option value="$PROJECT_DIR$/data/StopMissingExceptionTest.json" />
+        <option value="$PROJECT_DIR$/data/RouteMissingName.json" />
+        <option value="$PROJECT_DIR$/data/RouteBadFormat.json" />
+        <option value="$PROJECT_DIR$/data/RouteMissingPatterns.json" />
+        <option value="$PROJECT_DIR$/data/RouteBadFormat3.json" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/RouteParserMissingFieldTest.java" />
+        <option value="$PROJECT_DIR$/data/RouteBadFormat2.json" />
+        <option value="$PROJECT_DIR$/data/StopMissingName.json" />
+        <option value="$PROJECT_DIR$/data/StopBadFormat.json" />
+        <option value="$PROJECT_DIR$/data/test.txt" />
+        <option value="$PROJECT_DIR$/data/RouteMapOne.txt" />
+        <option value="$PROJECT_DIR$/data/RouteMapMultiple.txt" />
+        <option value="$PROJECT_DIR$/data/RoutesPartial.json" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/RouteParserALLTest.java" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/model/RouteManager.java" />
+        <option value="$PROJECT_DIR$/data/StopPartial.json" />
+        <option value="$PROJECT_DIR$/data/arrival43MissingALL.json" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/RouteMapParserTest.java" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/RouteMapParserOneTest.java" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/ArrivalsParserTest.java" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/!TestArrivalParser.java" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/!TestRouteMapParser.java" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/TestArrivalParser (1).java" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/TestArrivalParser.java" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/TestRouteManager.java" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/TestRoutePattern.java" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/TestArrivals.java" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/TestRoute.java" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/TestStop.java" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/TestStopManager.java" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/model/RoutePattern.java" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/model/Route.java" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/TestStopParser.java" />
+        <option value="$PROJECT_DIR$/data/StopMissingLat.json" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/parsers/RouteMapParser.java" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/parsers/StopParser.java" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/model/Stop.java" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/RouteParserTest.java" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/StopParserALLTest.java" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/StopParserMissingFieldTest.java" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/StopParserTest.java" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/ArrivalParserALLTest.java" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/parsers/RouteParser.java" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/parsers/ArrivalsParser.java" />
+        <option value="$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/util/Geometry.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="1378" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BusesAreUs_Phase1_Starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BusesAreUs_Phase1_Starter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BusesAreUs_Phase1_Starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BusesAreUs_Phase1_Starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BusesAreUs_Phase1_Starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BusesAreUs_Phase1_Starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="translink" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BusesAreUs_Phase1_Starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BusesAreUs_Phase1_Starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="translink" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BusesAreUs_Phase1_Starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BusesAreUs_Phase1_Starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="translink" type="462c0819:PsiDirectoryNode" />
+              <item name="parsers" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533804902411" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../term_project_phase2/BusesAreUs_Phase2_Starter" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ca.ubc.cs.cpsc210.translink.tests.util" />
+      <recent name="ca.ubc.cs.cpsc210.translink.tests.model" />
+      <recent name="ca.ubc.cs.cpsc210.translink.parsers.exception" />
+      <recent name="ca.ubc.cs.cpsc210.translink.tests.parsers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\apple\Desktop\cpsc 210\lectures\Fob\users\L2P\z9y0b\term_project_phase1\BusesAreUs_Phase1_Starter\data" />
+      <recent name="C:\Users\apple\Desktop\cpsc 210\lectures\Fob\users\L2P\z9y0b\term_project_phase1\BusesAreUs_Phase1_Starter\src\ca\ubc\cs\cpsc210\translink\tests\parsers" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ca.ubc.cs.cpsc210.translink.tests in BusesAreUs_Phase1_Starter">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrivalParserALLTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BusesAreUs_Phase1_Starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.ubc.cs.cpsc210.translink.tests.parsers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.ubc.cs.cpsc210.translink.tests.parsers" />
+      <option name="MAIN_CLASS_NAME" value="ca.ubc.cs.cpsc210.translink.tests.parsers.ArrivalParserALLTest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RouteMapParserOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BusesAreUs_Phase1_Starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.ubc.cs.cpsc210.translink.tests.parsers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.ubc.cs.cpsc210.translink.tests.parsers" />
+      <option name="MAIN_CLASS_NAME" value="ca.ubc.cs.cpsc210.translink.tests.parsers.RouteMapParserOneTest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RouteParserALLTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BusesAreUs_Phase1_Starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.ubc.cs.cpsc210.translink.tests.parsers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.ubc.cs.cpsc210.translink.tests.parsers" />
+      <option name="MAIN_CLASS_NAME" value="ca.ubc.cs.cpsc210.translink.tests.parsers.RouteParserALLTest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StopParserALLTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BusesAreUs_Phase1_Starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.ubc.cs.cpsc210.translink.tests.parsers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.ubc.cs.cpsc210.translink.tests.parsers" />
+      <option name="MAIN_CLASS_NAME" value="ca.ubc.cs.cpsc210.translink.tests.parsers.StopParserALLTest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ca.ubc.cs.cpsc210.translink.tests in BusesAreUs_Phase1_Starter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BusesAreUs_Phase1_Starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.ubc.cs.cpsc210.translink.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.ubc.cs.cpsc210.translink.tests" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ca.ubc.cs.cpsc210.translink.tests in BusesAreUs_Phase1_Starter" />
+      <item itemvalue="JUnit.RouteMapParserOneTest" />
+      <item itemvalue="JUnit.RouteParserALLTest" />
+      <item itemvalue="JUnit.StopParserALLTest" />
+      <item itemvalue="JUnit.ArrivalParserALLTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ca.ubc.cs.cpsc210.translink.tests in BusesAreUs_Phase1_Starter" />
+        <item itemvalue="JUnit.ArrivalParserALLTest" />
+        <item itemvalue="JUnit.StopParserALLTest" />
+        <item itemvalue="JUnit.RouteParserALLTest" />
+        <item itemvalue="JUnit.RouteMapParserOneTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\apple\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ce068b5-5552-449b-83c0-fb6af057898c" name="Default" comment="" />
+      <created>1477067291078</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1477067291078</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Clean up the documentation, slightly change the specification of the parser exceptions, rename test classes.">
+      <created>1488305275109</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1488305275110</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Rename getStopWithID to getStopWithNumber to be consistent.">
+      <created>1488307677104</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1488307677104</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fix the test to have the right number of routes.">
+      <created>1488309395105</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1488309395105</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add basic geometry tests.">
+      <created>1488312703104</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1488312703104</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Clean up the documentation, slightly change the specification of the parser exceptions, rename test classes.">
+      <created>1488316125105</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1488316125105</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add some failing geometry tests.">
+      <created>1488316522105</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1488316522105</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Clean up the documentation, slightly change the specification of the parser exceptions, rename test classes.">
+      <created>1489273477130</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1489273477130</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ca_ubc_cs_cpsc210_translink_tests_in_BusesAreUs_Phase1_Starter - 2017.03.20 at 15h 35m 20s.xml">
+      <configuration name="ca.ubc.cs.cpsc210.translink.tests in BusesAreUs_Phase1_Starter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ca_ubc_cs_cpsc210_translink_tests_in_BusesAreUs_Phase1_Starter - 2017.03.20 at 15h 37m 19s.xml">
+      <configuration name="ca.ubc.cs.cpsc210.translink.tests in BusesAreUs_Phase1_Starter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ca_ubc_cs_cpsc210_translink_tests_in_BusesAreUs_Phase1_Starter - 2017.03.20 at 15h 39m 36s.xml">
+      <configuration name="ca.ubc.cs.cpsc210.translink.tests in BusesAreUs_Phase1_Starter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ca_ubc_cs_cpsc210_translink_tests_in_BusesAreUs_Phase1_Starter - 2017.03.20 at 16h 42m 37s.xml">
+      <configuration name="ca.ubc.cs.cpsc210.translink.tests in BusesAreUs_Phase1_Starter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ca_ubc_cs_cpsc210_translink_tests_in_BusesAreUs_Phase1_Starter - 2017.03.20 at 18h 24m 13s.xml">
+      <configuration name="ca.ubc.cs.cpsc210.translink.tests in BusesAreUs_Phase1_Starter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ca_ubc_cs_cpsc210_translink_tests_in_BusesAreUs_Phase1_Starter - 2017.03.20 at 18h 27m 21s.xml">
+      <configuration name="ca.ubc.cs.cpsc210.translink.tests in BusesAreUs_Phase1_Starter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ca_ubc_cs_cpsc210_translink_tests_in_BusesAreUs_Phase1_Starter - 2017.03.20 at 18h 31m 57s.xml">
+      <configuration name="ca.ubc.cs.cpsc210.translink.tests in BusesAreUs_Phase1_Starter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ca_ubc_cs_cpsc210_translink_tests_in_BusesAreUs_Phase1_Starter - 2018.08.09 at 02h 07m 43s.xml">
+      <configuration name="ca.ubc.cs.cpsc210.translink.tests in BusesAreUs_Phase1_Starter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ca_ubc_cs_cpsc210_translink_tests_in_BusesAreUs_Phase1_Starter - 2018.08.09 at 02h 13m 14s.xml">
+      <configuration name="ca.ubc.cs.cpsc210.translink.tests in BusesAreUs_Phase1_Starter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ca_ubc_cs_cpsc210_translink_tests_in_BusesAreUs_Phase1_Starter - 2018.08.09 at 03h 49m 53s.xml">
+      <configuration name="ca.ubc.cs.cpsc210.translink.tests in BusesAreUs_Phase1_Starter" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Project" order="0" visible="true" weight="0.20574887" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Nl-Palette" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Palette&#9;" order="6" />
+      <window_info id="UI Designer" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329653" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21147542" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39905363" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3292517" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3280757" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Problems" order="10" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="11" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.329653" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Properties" order="3" />
+      <window_info anchor="right" id="Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.329429" />
+      <window_info anchor="right" id="Palette" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Rename getStopWithID to getStopWithNumber to be consistent." />
+    <MESSAGE value="Fix the test to have the right number of routes." />
+    <MESSAGE value="Add basic geometry tests." />
+    <MESSAGE value="Add some failing geometry tests." />
+    <MESSAGE value="Clean up the documentation, slightly change the specification of the parser exceptions, rename test classes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Clean up the documentation, slightly change the specification of the parser exceptions, rename test classes." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/util/TestGeometry.java</url>
+          <line>33</line>
+          <properties class="ca.ubc.cs.cpsc210.translink.tests.util.TestGeometry" method="testLineInRectangle" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/data/allroutemapsEmptyString.txt" />
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/TestArrivals.java" />
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/TestRoute.java" />
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/TestArrivalParser.java" />
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/TestRouteManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/TestRouteMapParser.java" />
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/TestRouteParser.java" />
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/TestRoutePattern.java" />
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/TestStop.java" />
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/TestStopManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/TestStopParser.java" />
+    <entry file="file://$PROJECT_DIR$/data/RouteBadFormat.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/RouteMapMultiple.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/RouteMapOne.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/StopMissingName.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-146" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/StopMissingLat.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/allroutes.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/arrival43MissingALL.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/allroutemaps.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/providers/AbstractFileDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/arrivals43.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/model/Stop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/model/StopManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/parsers/exception/ArrivalsDataMissingException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/ArrivalParserALLTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/RouteParserALLTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/RouteParserMissingFieldTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/RouteMapParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/util/Geometry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="30" column="111" selection-start-line="30" selection-start-column="111" selection-end-line="30" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/model/Arrival.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/RouteMapParserOneTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/model/ArrivalsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/ArrivalsParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/arrivals.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/parsers/ArrivalsParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-366">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/parsers/RouteParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/RouteParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/model/RoutePattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1126">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/parsers/RouteMapParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1007">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/RouteBadFormat3.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/RouteMissingName.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/RoutesPartial.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/RouteMissingDestination.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/RouteMissingPatterns.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/model/RouteManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/StopParserALLTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/StopPartial.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/StopParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/tests/parsers/StopParserMissingFieldTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/parsers/StopParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/ubc/cs/cpsc210/translink/model/Route.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>BusesAreUs_Phase1_Starter</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>java-json</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

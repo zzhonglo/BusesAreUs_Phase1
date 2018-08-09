@@ -1,0 +1,25 @@
+[
+{
+  "Name": "DOWNTOWN/COQUITLAM STN NIGHTBUS",
+  "OperatingCompany": "CMBC",
+  "Patterns":
+    {
+      "Destination": "COQ STN NIGHTBUS",
+      "Direction": "EAST",
+      "PatternNo": "EB1",
+      "RouteMap": {
+        "Href": "http://nb.translink.ca/geodata/trip/N9-EB1.kmz"
+      }
+    },
+    {
+      "Destination": "DOWNTOWN NIGHTBUS",
+      "Direction": "WEST",
+      "PatternNo": "WB1",
+      "RouteMap": {
+        "Href": "http://nb.translink.ca/geodata/trip/N9-WB1.kmz"
+      }
+    }
+  ],
+  "RouteNo": "N9"
+}
+]
